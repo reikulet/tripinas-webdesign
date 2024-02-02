@@ -1,0 +1,150 @@
+<html>
+<body bgcolor="#01CAFE" style="color:black;font-face:arial">
+<style>
+table{ 
+background-size:100% 100%; background-attachment:fixed;
+}
+textarea{
+resize:none;
+}
+</style>
+<table border="0" width="1300" height="500" align="center" cellspacing="4" cellpadding="25" background="view.jpg" align="center">
+
+<td style="width:40%">
+ <font size="7">&nbsp;&nbsp;&nbsp tripinas</font>
+<font face="arial" color="white" size="3"></td>
+<td style="width:60%"><a href="main.html" title="Go to Home"><button class="button" style="width:300;height:30;background-color:#01CAFE;border-radius:5px;border-color:black"><b><big>RETURN BACK TO HOME PAGE</big></b></a></td>
+
+<tr height="360" width="1300" valign="top">
+<td align="center" height="300" width="1300" colspan="10">
+
+<br>
+<div style="width:500;height:810;background-color:#01CAFE;border-radius:5px;border-color:black">
+<form action="reservation.php" method="post">
+<fieldset>
+<legend><b>REGISTRATION</b></legend>
+  <div class="elem-group">
+<i>
+<br>
+<br>
+<b>Contact Details</b>
+    <label for="name"><br><br>Name (SN, FN)</label> &nbsp;&nbsp;&nbsp;&nbsp&nbsp
+    <input type="text" id="name" name="visitor_name" placeholder="Dela Cruz, Juan" pattern=[A-Z\sa-z]{3,20} required>
+  </div>
+<br>
+  <div class="elem-group">
+    <label for="email">E-mail adress</label> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    <input type="email" id="email" name="visitor_email" placeholder="juandelacruz@gmail.com" required>
+  </div>
+<br>
+  <div class="elem-group">
+    <label for="phone">Contact number</label>
+&nbsp&nbsp&nbsp&nbsp&nbsp
+    <input type="tel" id="phone" name="visitor_phone" placeholder="09** *** ****" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+  </div>
+<br>
+<br>
+<b>Number of Guests</b>
+<br>
+<br>
+  <div class="elem-group inlined">
+    <label for="adult">Adults</label>&nbsp&nbsp
+    <input type="number" id="adult" name="total_adults" placeholder="*for ages 18 above" min="1" required>
+  </div>
+<br>
+  <div class="elem-group inlined">
+    <label for="teens">Teens</label>&nbsp&nbsp
+    <input type="number" id="child" name="total_children" placeholder="*for ages 13-17" min="0" required>
+</div>
+<br>
+  <div class="elem-group inlined">
+    <label for="child">Children</label>&nbsp&nbsp
+    <input type="number" id="child" name="total_children" placeholder="*for ages 0-12" min="0" required>
+  </div>
+<br>
+  <div class="elem-group inlined">
+    <label for="pwd">No. of PWDs</label>&nbsp&nbsp
+    <input type="number" id="child" name="total_children" placeholder="*for pwds only" min="0" required>
+  </div>
+<br>
+  <div class="elem-group inlined">
+    <label for="pwd">No. of SCs</label>&nbsp&nbsp
+    <input type="number" id="child" name="total_children" placeholder="*for senior citizens only" min="0" required>
+  </div>
+<br>
+<br>
+  <div class="elem-group inlined">
+    <label for="checkin-date"><b>Departure Date</label><br><br>
+    <input type="date" id="choose avail. dates" name="checkin" required>
+  </div>
+<br>
+<br>
+  <div class="elem-group">
+    <label for="destination">Choose Destination <b>FROM</b></label><br><br>
+    <select id="destination" name="destination" required>
+        <option value=""></option>
+        <option value="Manila">Manila (Sampaloc trmnl)</option>
+        <option value="Bataan">Bataan (Hermosa trmnl)</option>
+        <option value="Batangas">Batangas (Calatagan trmnl)</option>
+	<option value="Nueva Ecija">Nueva Ecija (Cabanatuan trmnl)</option>
+	<option value="Zambales">Zambales (Sta. Cruz trmnl)</option>
+	<option value="Aurora">Aurora (Casiguran trmnl)</option>
+	<option value="Cagayan">Cagayan Valley (Aparri trmnl)</option>
+	<option value="Benguet">Benguet (Baguio trmnl)</option>
+    </select>
+  </div>
+<br>
+ <div class="elem-group">
+    <label for="destination">Choose Destination <b>TO</b></label><br><br>
+    <select id="destination" name="destination" required>
+        <option value=""></option>
+        <option value="Manila">Manila (Sampaloc trmnl)</option>
+        <option value="Bataan">Bataan (Hermosa trmnl)</option>
+        <option value="Batangas">Batangas (Calatagan trmnl)</option>
+	<option value="Nueva Ecija">Nueva Ecija (Cabanatuan trmnl)</option>
+	<option value="Zambales">Zambales (Sta. Cruz trmnl)</option>
+	<option value="Aurora">Aurora (Casiguran trmnl)</option>
+	<option value="Cagayan">Cagayan Valley (Aparri trmnl)</option>
+	<option value="Benguet">Benguet (Baguio trmnl)</option>
+    </select>
+  </div>
+<br>
+<br>
+<br>
+   <div class="elem-group inlined">
+  <button type="submit">BOOK!</button>
+<br>
+<br>
+
+</div>
+</form>
+</button>
+</fieldset>
+
+</td>
+</tr>
+
+<tr>
+<td width="1000" height="100"></td>
+</tr>
+</table>
+</div>
+
+<table border="0" width="1300" height="30" align="center">
+<tr>
+<td>
+<p style="line-height:50px">
+<p align="center"><b>tripinas</b></p>
+<p align="center">felizcorps@gmail.com</p>
+<p align="center">09395579185 | 09567759270 | (02) 8123-7698</p>
+<p align="center">16 Commonwealth Ave., Diliman, Quezon City</p>
+
+<p align="center" style="color:powderblue">2024 tripinas</p>
+</td>
+</tr>
+</table>
+</div>
+
+
+</body>
+</html>
